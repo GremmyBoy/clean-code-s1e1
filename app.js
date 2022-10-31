@@ -10,7 +10,7 @@
 
 var taskInput=document.getElementById("new-task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.getElementById("incompleteTasks");//ul of #incompleteTasks
+var incompleteTaskHolder=document.getElementById("incompleted-tasks");//ul of #incompleteTasks
 var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
 
 
@@ -187,7 +187,7 @@ for (var i=0; i<completedTasksHolder.children.length;i++){
 
 
 
-
+   
 // Issues with usability don't get seen until they are in front of a human tester.
 
 //prevent creation of empty tasks.
